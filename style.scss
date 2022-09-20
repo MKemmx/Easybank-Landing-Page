@@ -312,6 +312,8 @@
 
       .banner-image {
         order: 1;
+        display: flex;
+        justify-content: center;
 
         .banner-bg {
           display: none;
@@ -319,6 +321,7 @@
 
         .banner-phone {
           width: 90%;
+          left: 0;
           position: relative;
           margin-top: -40%;
           z-index: 3;
